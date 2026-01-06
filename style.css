@@ -2,20 +2,17 @@ body{
     font-family: "Roboto", sans-serif;
 }
 
-.header, .hero, .footer{
+/*The header sections*/
+.header{
     background-color: #1F2937;
 }
 
-button, .signup{
-    background-color: #3882F6;
+.logo{
+    font-size: 24px;
     color: #F9FAF8;
 }
 
-.quotes{
-    background-color: #E5E7EB;
-}
-
-a, .herotext, .signup>.text{
+a{
     font-size: 18px;
     color: #E5E7EB;
     text-decoration: none;
@@ -24,15 +21,9 @@ a, .herotext, .signup>.text{
 ul{
     list-style-type: none;
 }
-
-img{
-    width: 175px;
-    height: 175px;
-}
-
-.logo{
-    font-size: 24px;
-    color: #F9FAF8;
+/*The Hero sections*/
+.hero{
+    background-color: #1F2937;
 }
 
 .hero>.title{
@@ -41,10 +32,25 @@ img{
     font-weight: 900;
 }
 
+.herotext{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/*The info sections*/
 .info>.title{
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
+}
+
+img{
+    width: 175px;
+    height: 175px;
+}
+/*The Quotes section*/
+.quotes{
+    background-color: #E5E7EB;
 }
 
 .quotes>.text{
@@ -58,12 +64,28 @@ img{
     font-weight: 900;
 }
 
+/*The sign-up section*/
+.signup{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 .signup>.title{
     font-size: 24px;
     color: #F9FAF8;
     font-weight: 900;
 }
 
+/*The footer*/
 .footer{
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+/*Button, as both buttons are largely the same*/
+button{
+    background-color: #3882F6;
     color: #F9FAF8;
 }

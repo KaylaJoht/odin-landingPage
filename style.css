@@ -8,13 +8,14 @@ body{
 
 button, .signup{
     background-color: #3882F6;
+    color: #F9FAF8;
 }
 
 .quotes{
     background-color: #E5E7EB;
 }
 
-a, .herotext{
+a, .herotext, .signup>.text{
     font-size: 18px;
     color: #E5E7EB;
     text-decoration: none;
@@ -25,8 +26,8 @@ ul{
 }
 
 img{
-    width: 40px;
-    height: auto;
+    width: 175px;
+    height: 175px;
 }
 
 .logo{
@@ -51,4 +52,18 @@ img{
     color: #1F2937;
     font-weight: 300;
     font-style: italic;
+}
+
+.person{
+    font-weight: 900;
+}
+
+.signup>.title{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.footer{
+    color: #F9FAF8;
 }

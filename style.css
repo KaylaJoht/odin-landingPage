@@ -56,17 +56,26 @@ img{
 /*The Quotes section*/
 .quotes{
     background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
+.quotebox{
+    max-width: 800px;
+    max-height: 400px;
+    margin: 100px;
 }
 
-.quotes>.text{
+.quote{
     font-size: 36px;
     color: #1F2937;
-    font-weight: 300;
     font-style: italic;
+    font-weight: 300;
 }
 
 .person{
     font-weight: 900;
+    font-size: 20px;
+    text-align: right;
 }
 
 /*The sign-up section*/

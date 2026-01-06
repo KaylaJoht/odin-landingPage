@@ -43,15 +43,33 @@ ul{
 }
 
 /*The info sections*/
+.info{
+    text-align: center;
+}
 .info>.title{
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
+    margin: 40px;
+}
+
+.subbox{
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    margin-bottom: 100px;
+}
+
+.subtext{
+    max-width: 180px;
 }
 
 img{
     width: 175px;
     height: 175px;
+    border: blue;
+    border-style: solid;
+    border-radius: 10px;
 }
 /*The Quotes section*/
 .quotes{

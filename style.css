@@ -14,7 +14,41 @@ button, .signup{
     background-color: #E5E7EB;
 }
 
+a, .herotext{
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
 img{
     width: 40px;
     height: auto;
+}
+
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.hero>.title{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.info>.title{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.quotes>.text{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
 }

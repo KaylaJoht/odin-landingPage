@@ -96,6 +96,11 @@ img{
   padding: 0 90px;
 }
 
+.right>button {
+    border-color: #F9FAF8;
+    border: solid;
+}
+
 /*The footer*/
 .footer{
     background-color: #1F2937;
@@ -108,4 +113,9 @@ img{
 button{
     background-color: #3882F6;
     color: #F9FAF8;
+    width: 125px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 700;
 }

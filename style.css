@@ -6,6 +6,14 @@ body{
     background-color: #1F2937;
 }
 
+button, .signup{
+    background-color: #3882F6;
+}
+
+.quotes{
+    background-color: #E5E7EB;
+}
+
 img{
     width: 40px;
     height: auto;

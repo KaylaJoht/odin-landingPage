@@ -37,6 +37,11 @@ ul{
     color: #E5E7EB;
 }
 
+.placeholder{
+    color:#F9FAF8;
+    background-color: #E5E7EB;
+}
+
 /*The info sections*/
 .info>.title{
     font-size: 36px;

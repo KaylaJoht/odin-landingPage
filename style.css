@@ -24,9 +24,24 @@ ul{
 /*The Hero sections*/
 .hero{
     background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 100px 0;
 }
 
-.hero>.title{
+.heroleft, .heroright {
+  display: flex;
+  align-items: center;
+}
+
+.leftbox{
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+}
+
+.leftbox>.title{
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
@@ -35,11 +50,21 @@ ul{
 .herotext{
     font-size: 18px;
     color: #E5E7EB;
+    margin: 5px 0;
 }
 
 .placeholder{
     color:#F9FAF8;
-    background-color: #E5E7EB;
+    background-color: darkgray;
+    width: 450px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.enroll{
+    border-style: none;
 }
 
 /*The info sections*/
